@@ -31,7 +31,7 @@ p{
     font-size: 0.8rem;
 }
 h3 {
-    color: #fff;
+    color:  hsl(193, 38%, 86%);
     width: 17rem;
     text-align: center;
     margin: 10px auto;
@@ -58,5 +58,11 @@ h3 {
 @media screen and (max-width:768px) {
     .container {
         width: 90%;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
     }
 }
