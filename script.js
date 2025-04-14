@@ -1,6 +1,5 @@
 const id = document.getElementById('id');
 const quote = document.getElementById('quote');
-
 async function quotes() {
     try {
         const request = await fetch('https://api.adviceslip.com/advice');
@@ -9,10 +8,8 @@ async function quotes() {
      quote.textContent = response.slip.advice;
     console.log(response);
     } catch (error) {
-        console.log("error message is", error);
+        console.log("error message is", error);};
 };
-};
-function roll(){
-    
+function roll(){   
 quotes();
 }
