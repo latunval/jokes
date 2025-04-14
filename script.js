@@ -10,6 +10,7 @@ async function quotes() {
     } catch (error) {
         console.log("error message is", error);};
 };
+quotes();
 function roll(){   
 quotes();
 }
